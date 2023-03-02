@@ -34,11 +34,10 @@ const getData=(newdata)=>{
 
 }
 
-  return <div>
+  return <div className="Main_Container">
     <AddExpense onAddExpense={getData}/>
-
     <Expense item={data}/>
-    </div>;
+    </div>
 }
 
 export default App;

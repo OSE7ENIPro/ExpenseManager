@@ -18,24 +18,23 @@ export default function Expense(props) {
   });
 
   return (
-    <Card className="expenses">
-      <ExpenseChart item={filterdlist}/>
-      <ExpenseFilter selected={year} onfilterchange={selectedyearbyuser} />
-
-      {filterdlist.length === 0 ? (
-        <p>NO Expenses Found </p>
-      ) : (
-        filterdlist.map((obj) => (
-          <ExpenseItem
-          id={obj.id}
-          title={obj.title}
-          cost={obj.cost}
-          date={obj.date}
-          />
-        ))
-      )}
-
-      
-    </Card>
+    <>
+      <ExpenseChart item={filterdlist} />
+      <Card className="expenses">
+        <ExpenseFilter selected={year} onfilterchange={selectedyearbyuser} />
+        {filterdlist.length === 0 ? (
+          <p>NO Expenses Found </p>
+        ) : (
+          filterdlist.map((obj) => (
+            <ExpenseItem
+              id={obj.id}
+              title={obj.title}
+              cost={obj.cost}
+              date={obj.date}
+            />
+          ))
+        )}
+      </Card>
+    </>
   );
 }

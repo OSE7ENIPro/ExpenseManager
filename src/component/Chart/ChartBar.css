@@ -1,11 +1,12 @@
 .chart-bar {
     height: 100%;
     margin: 0;
+    justify-content: flex-end;
   }
   
   .chart-bar-tube {
-    height: 100%;
-    width: 20%;
+    height: 70%;
+    width: 10%;
     border: 1px solid #313131;
     background-color: white;
     overflow: hidden;
@@ -17,7 +18,7 @@
   
   .chart-bar-fill {
     background-color: red;
-    width: 30px;
+    width: 10px;
     transition: all 0.7s ease-out;
     margin: 0;
   }
@@ -30,4 +31,5 @@
     padding: 10px;
     margin-left: 0;
     padding-left: 0;
+    margin-top: 0;
   }

@@ -37,53 +37,60 @@ export default function New_Expense(props) {
       title: userInput.enteredTitle,
       cost: parseInt(userInput.enteredAmount),
     };
+    console.log("first", expenseData);
 
     props.onSaveExpenseData(expenseData);
 
-    setUserInput({
-      enteredTitle: "",
-      enteredAmount: "",
-      enteredDate: "",
-    });
+    // setUserInput({
+    //   enteredTitle: "",
+    //   enteredAmount: "",
+    //   enteredDate: "",
+    // });
   };
 
   return (
-    <form className="form1">
-      <div className="container">
-        <h3>ADD EXPENSE</h3>
-        <div>
-          <input type="date" value={userInput.enteredDate} onSelect={ondatechange} />
-        </div>
+    <>
+      <form className="form1">
+        <div className="container">
+          <h3>ADD EXPENSE</h3>
+          <div>
+            <input
+              type="date"
+              value={userInput.enteredDate}
+              onChange={ondatechange}
+            />
+          </div>
 
-        <div>
-          <input
-            type="text"
-            name="expense"
-            placeholder="title"
-            value={userInput.enteredTitle}
-            onChange={ontitlechange}
-          ></input>
-        </div>
+          <div>
+            <input
+              type="text"
+              name="expense"
+              placeholder="title"
+              value={userInput.enteredTitle}
+              onChange={ontitlechange}
+            ></input>
+          </div>
 
-        <div>
-          <input
-            type="number"
-            name="cost"
-            min="0"
-            placeholder="$"
-            value={userInput.enteredAmount}
-            onChange={onamountchange}
-          ></input>
-        </div>
+          <div>
+            <input
+              type="number"
+              name="cost"
+              min="0"
+              placeholder="$"
+              value={userInput.enteredAmount}
+              onChange={onamountchange}
+            ></input>
+          </div>
 
-        <div>
-          <input
-            className="btn"
-            type="submit"
-            onClick={submitHandler}
-          ></input>
+          <div>
+            <input
+              className="btn"
+              type="submit"
+              onClick={submitHandler}
+            ></input>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </>
   );
 }

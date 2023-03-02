@@ -17,8 +17,6 @@ export default function Add_Expense(props) {
 
 
   return (
-    <div>
         <NewExpense onSaveExpenseData={ExpenseHandler}/>
-    </div>
   )
 }
