@@ -1,0 +1,11 @@
+.chart-container {
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    height: 10rem;
+    margin: 0;
+    margin-bottom: 120px;
+    margin-left: 30px;
+
+  }

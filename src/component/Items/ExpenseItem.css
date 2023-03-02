@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Lora&family=Mulish&family=Raleway&display=swap');
+.exp-item{
+    display: flex;
+    background-color: white;
+    margin: 15px;
+    font-family: 'Graduate', cursive;
+}
+.exp-item-title,
+.exp-item-cost
+,.exp-item-edit{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Graduate', cursive;
+    color: black;
+}
+.exp-item-cost{
+    color: rgb(244, 5, 5);
+    font-family: 'Graduate', cursive;
+}
+.exp-item-title,
+.exp-item-cost,
+.exp-item-edit{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+}
+.exp-item-date{
+    margin: 0;
+    margin-left: 20px;
+}
+.exp-item-edit{
+    border: 3px dashed black;
+    padding: 5px;
+    background-color: white;
+    color :black;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+.exp-item-edit:hover{
+    background-color: lightgreen;
+    color: black;
+    border: 3px dashed black;
+    border-radius: 15px;
+}

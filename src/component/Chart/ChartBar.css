@@ -1,0 +1,33 @@
+.chart-bar {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .chart-bar-tube {
+    height: 100%;
+    width: 20%;
+    border: 1px solid #313131;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  
+  .chart-bar-fill {
+    background-color: red;
+    width: 30px;
+    transition: all 0.7s ease-out;
+    margin: 0;
+  }
+  
+  .chart-bar-label {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    margin-left: 0;
+    padding-left: 0;
+  }

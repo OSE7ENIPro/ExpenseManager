@@ -1,0 +1,23 @@
+.exp-date{
+    display: flex;
+    margin: 0;
+}
+
+.exp-date-day{
+    padding: 30px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    margin: 0;
+}
+.exp-date-year{
+    margin: 0;
+    padding: 10px;
+    padding-top: 30px;
+}
+.exp-date-month{
+    margin: 0;
+    padding: 10px;
+    padding-top: 30px;
+}

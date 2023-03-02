@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Lora&family=Mulish&family=Raleway&display=swap');
+
+
+.filter-by-year{
+    text-align: end;
+    font-size: large;
+    margin-right: 52px;
+    font-family: 'Graduate', cursive;
+
+}
+select{
+    font-size: large;
+    font-family: 'Graduate', cursive;
+
+}
+
+
