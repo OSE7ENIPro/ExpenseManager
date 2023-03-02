@@ -24,6 +24,8 @@ export default function ExpenseChart(props) {
   }
 
   return (
+    <>
       <Chart MonthlyExpenseList={chartDataPoints} />
+    </>
   );
 }

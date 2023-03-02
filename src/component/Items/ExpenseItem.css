@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Lora&family=Mulish&family=Raleway&display=swap');
 .exp-item{
     display: flex;
+    flex-wrap: wrap;
     background-color: #FFE7CC;
     margin: 15px;
     font-family: 'Graduate', cursive;
@@ -43,4 +44,8 @@
     color: black;
     border: 3px dashed black;
     border-radius: 15px;
+}
+.container-list{
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -10,7 +10,7 @@ export default function ExpenseItem(props) {
     setTitle("Updated !");
   }
   return (
-    <>
+    <div className="container-list">
       <Card className="exp-item">
         <div className="exp-item-date">
           <h2>
@@ -32,6 +32,6 @@ export default function ExpenseItem(props) {
           ></input>
         </div>
       </Card>
-    </>
+    </div>
   );
 }

@@ -20,6 +20,7 @@ export default function Expense(props) {
   return (
     <>
       <ExpenseChart item={filterdlist} />
+     
       <Card className="expenses">
         <ExpenseFilter selected={year} onfilterchange={selectedyearbyuser} />
         {filterdlist.length === 0 ? (

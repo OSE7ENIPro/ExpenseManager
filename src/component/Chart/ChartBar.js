@@ -6,7 +6,7 @@ export default function ChartBar(props) {
 
   if (props.maxValue > 0) {
     barFillHeight = Math.round((props.value / props.maxValue) * 100).toString() + "%";
-    console.log("From Chart Bar "+barFillHeight);
+    // console.log("From Chart Bar "+barFillHeight);
   }
   return (
     <div className="chart-bar">

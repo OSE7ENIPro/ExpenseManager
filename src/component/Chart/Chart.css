@@ -1,9 +1,9 @@
 .chart-container {
     background-color: #FFE7CC;
     text-align: center;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
-    height: 10rem;
+    /* height: 1rem; */
     margin-left: 15%;
     margin-right: 17%;
     justify-content: center;
