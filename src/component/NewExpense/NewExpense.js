@@ -41,17 +41,17 @@ export default function New_Expense(props) {
 
     props.onSaveExpenseData(expenseData);
 
-    // setUserInput({
-    //   enteredTitle: "",
-    //   enteredAmount: "",
-    //   enteredDate: "",
-    // });
+    setUserInput({
+      enteredTitle: "",
+      enteredAmount: "",
+      enteredDate: "",
+    });
   };
 
   return (
     <>
       <form className="form1">
-        <div className="container">
+        <div className="expense-container">
           <h3>ADD EXPENSE</h3>
           <div>
             <input
